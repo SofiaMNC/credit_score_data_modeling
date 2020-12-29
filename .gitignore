@@ -1,0 +1,10 @@
+.DS_Store
+Notebooks/.ipynb_checkpoints
+Notebooks/.vscode
+Notebooks/.DS_Store
+Notebooks/Resources/datasets/assembled/*.csv
+Notebooks/Resources/datasets/assembled/dashboard/*.csv
+Notebooks/Resources/datasets/origin/*,csv
+Notebooks/Resources/functions/__pycache__
+Notebooks/Resources/.DS_Store
+*/.DS_Store
