@@ -23,6 +23,7 @@ from sklearn.model_selection import train_test_split
 import lightgbm as lgb
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import LabelEncoder
+from joblib import load
 
 #------------------------------------------
 
@@ -763,7 +764,7 @@ def transform_data(app_df, bureau_df, bureau_balance_df,
     app_df = pd.get_dummies(app_df)
     
     # Keeping only relevant columns
-    columns_to_keep = []
+    columns_to_keep = load("./Resources/model_features.joblib")
 
     app_df = app_df.loc[:, app_df.columns.isin(columns_to_keep)]
     
