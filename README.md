@@ -29,3 +29,6 @@ pip3 install -r requirements.txt
 3. Run each notebook one after the other, following the order indicated by the digits in each notebook's name.
 
 For a complete overview of the modeling approach, please see the methodology note.
+
+## Credit
+A big thank you to Will Koehrsen, whose [notebooks](https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction) were a huge help and inspiration for tackling this problem.
