@@ -1,7 +1,7 @@
 # Credit Scoring Data Modeling
 *Sofia Chevrolat (December 2020)*
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://madimedia.pro)
 
 ## Overview
 The financial firm "Prêt à dépenser" is a consumer credit company for people with few or no credit history.
